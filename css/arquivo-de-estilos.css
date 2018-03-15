@@ -1,0 +1,72 @@
+body {
+    background-color: #a9a9a9;
+    font-family: "Arial";
+    text-align: justify;
+    margin-left: 24%;
+	margin-right: 24%;
+    padding: 10px;
+}
+
+h1,h2 {
+    font-family: fantasy;
+    color: #ffe8df;
+    text-shadow: 4px 4px 4px #222238;
+}
+
+img,iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mask {
+    border-radius: 50%;
+}
+
+.step-number {
+    font-size: 20px;
+    color: #222238;
+    background-color: #ffe8df;
+    padding: 0px 6px 0px 6px;
+    border: 2px solid #222238;
+}
+
+.step-name {
+    font-size: 20px;
+    color: #222238;
+    text-shadow: 1px 1px 1px #ffe8df;
+}
+
+.note {
+    color: #565656;
+    font-size: small;
+}
+
+a[href^="http"] {
+  background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  padding-left: 25px;
+}
+
+a:link {
+    color: #000000;
+    text-decoration:none;
+}
+
+a:visited {
+    color: #a70e14;
+}
+
+a:hover {
+    background-color: #ffe8df;
+}
+
+a:active {
+    color: #a70e14;
+    font-weight: bold;
+}
+
+#logotipo {
+    width: 200px;
+}
